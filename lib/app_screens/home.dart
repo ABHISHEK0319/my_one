@@ -11,9 +11,18 @@ class Home extends StatelessWidget {
         color: Colors.deepPurpleAccent,
         // width: 300.0,
         // height: 500.0,
-        margin: const EdgeInsets.only(left: 35.0, top: 50.0),
-        padding: const EdgeInsets.all(20.0),
-        child: const Text("Flight", textDirection: TextDirection.ltr),
+        // margin: const EdgeInsets.only(left: 35.0, top: 50.0),
+        // padding: const EdgeInsets.all(20.0),
+        child: const Text(
+          "Flight",
+          textDirection: TextDirection.ltr,
+          style: TextStyle(
+              decoration: TextDecoration.none,
+              fontSize: 75.0,
+              fontFamily: 'Raleway',
+              fontWeight: FontWeight.w700,
+              color: Colors.white),
+        ),
       ),
     );
   }
